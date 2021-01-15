@@ -9,6 +9,9 @@ Creating a Playlist
 -------------------
 
 Using pytube to interact with playlists is very simple. 
+
+
+
 Begin by importing the Playlist class::
 
     >>> from pytube import Playlist
@@ -22,6 +25,11 @@ Or you can create one from a video link in a playlist::
     >>> p = Playlist('https://www.youtube.com/watch?v=41qgdwd3zAg&list=PLS1QulWo1RIaJECMeUT4LFwJ-ghgoSH6n')
 
 Now, we have a :class:`Playlist <pytube.Playlist>` object called ``p`` that we can do some work with.
+
+
+*** IMPORTANT ***
+    Playlists have to be PUBLIC. It is not allowed to download private playlists' contents.
+    
 
 Interacting with a playlist
 ---------------------------
